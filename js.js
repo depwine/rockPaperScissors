@@ -6,12 +6,9 @@ let winLoss = 0; //set win/loss at zero
 
 /**  commented out to better read the logic below
 //get user input through buttons
-
 let inputRaw = window.prompt("Select: Rock, Paper, Scissors");
 let inputUpper = inputRaw.toUpperCase();
-
 //validate user input 
-
 if (inputUpper === "ROCK" || inputUpper === "PAPER" || inputUpper === "SCISSORS"){
     // log for testing 
     //console.log("yas");
@@ -20,10 +17,8 @@ if (inputUpper === "ROCK" || inputUpper === "PAPER" || inputUpper === "SCISSORS"
 } else {
     console.log("Reload, go again");
 }
-
 //console log to ensure user input
 console.log(playerSelection);
-
 */ 
 
 // create function humanPlay using logic commented out above
@@ -83,7 +78,6 @@ let computerSelection = computerPlay();
 
 /**  commented out so it doesnt run twice, appears in bottom code
 /// check if there's a tie 
-
 if (computerSelection === playerSelection){
     console.log("You tie!");
 }
